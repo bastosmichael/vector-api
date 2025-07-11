@@ -1,6 +1,6 @@
-# Perplexity API
+# vector API
 
-Perplexity API is a high-performance FastAPI backend application designed to seamlessly integrate with vector databases, LangChain, HuggingFace, and OpenAI. It uses an OpenAPI spec and Swagger utilizing JSON Schema to provide a robust and scalable backend solution for AI and machine learning applications. 
+vector API is a high-performance FastAPI backend application designed to seamlessly integrate with vector databases, LangChain, HuggingFace, and OpenAI. It uses an OpenAPI spec and Swagger utilizing JSON Schema to provide a robust and scalable backend solution for AI and machine learning applications. 
 
 ![Screenshot 2023-07-31 at 6 22 29 PM](https://github.com/bastosmichael/perplexity/assets/1518708/99b5440a-e6c7-4e9e-a163-94fccae492bd)
 
@@ -14,7 +14,7 @@ Perplexity API is a high-performance FastAPI backend application designed to sea
 
 - **LangChain Integration**: Incorporates LangChain for comprehensive language processing capabilities, helping to effectively understand, analyze, and generate human language data.
 
-- **HuggingFace & OpenAI Integration**: By integrating state-of-the-art AI platforms like HuggingFace and OpenAI, Perplexity API allows leveraging their extensive capabilities in machine learning and artificial intelligence.
+- **HuggingFace & OpenAI Integration**: By integrating state-of-the-art AI platforms like HuggingFace and OpenAI, vector API allows leveraging their extensive capabilities in machine learning and artificial intelligence.
 
 - **Swagger Compatibility**: Supports Swagger, a powerful interface for REST APIs that allows both developers and non-developers to interact with the API’s resources. It provides insightful information about the operations, parameters, responses, and the direct testing of API endpoints within its UI.
 
@@ -24,7 +24,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You'll need to install the following items before you can use Perplexity API:
+You'll need to install the following items before you can use vector API:
 
 - Python 3.6 or later
 - Poetry (Python dependency management)
@@ -78,7 +78,7 @@ For more advanced usage, please refer to the [`pytest` documentation](https://do
 
 ## Contributing
 
-We welcome contributions to Perplexity API! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
+We welcome contributions to vector API! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
 
 ## License
 
