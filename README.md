@@ -1,10 +1,10 @@
 # vector API
 
-vector API is a high-performance FastAPI backend application designed to seamlessly integrate with vector databases, LangChain, HuggingFace, and OpenAI. It uses an OpenAPI spec and Swagger utilizing JSON Schema to provide a robust and scalable backend solution for AI and machine learning applications. 
+vector API is a high-performance FastAPI backend application designed to seamlessly integrate with vector databases, LangChain, HuggingFace, and OpenAI. It uses an OpenAPI spec and Swagger utilizing JSON Schema to provide a robust and scalable backend solution for AI and machine learning applications.
 
-![Screenshot 2023-07-31 at 6 22 29 PM](https://github.com/bastosmichael/perplexity/assets/1518708/99b5440a-e6c7-4e9e-a163-94fccae492bd)
+![Screenshot 2023-07-31 at 6 22 29 PM](https://github.com/bastosmichael/vector/assets/1518708/99b5440a-e6c7-4e9e-a163-94fccae492bd)
 
-![Screenshot 2023-07-31 at 6 19 55 PM](https://github.com/bastosmichael/perplexity/assets/1518708/56d9f0d4-4d4b-4510-a37a-ba945cd55d84)
+![Screenshot 2023-07-31 at 6 19 55 PM](https://github.com/bastosmichael/vector/assets/1518708/56d9f0d4-4d4b-4510-a37a-ba945cd55d84)
 
 ## Features
 
@@ -33,23 +33,27 @@ You'll need to install the following items before you can use vector API:
 ### Installation
 
 Clone the repository:
+
 ```bash
-git clone https://github.com/bastosmichael/perplexity.git
+git clone https://github.com/bastosmichael/vector.git
 ```
 
 Navigate to the project directory:
+
 ```bash
-cd perplexity
+cd vector
 ```
 
 Install the required dependencies using Poetry:
+
 ```bash
 poetry install
 ```
 
 Run the application:
+
 ```bash
-poetry run perplexity
+poetry run vector
 ```
 
 The server should be running and the API can be accessed at `localhost:8000`.

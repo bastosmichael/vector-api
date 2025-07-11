@@ -1,4 +1,4 @@
-from perplexity.settings import Settings, get_settings
+from vector.settings import Settings, get_settings
 
 
 def test_get_settings():

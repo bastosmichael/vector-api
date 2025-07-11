@@ -1,4 +1,4 @@
-from perplexity.templates import CHAT_PROMPT_TEMPLATE
+from vector.templates import CHAT_PROMPT_TEMPLATE
 
 
 def test_chat_prompt_template():

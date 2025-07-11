@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends
 from fastapi.responses import StreamingResponse
-from perplexity.models.chat_request import ChatRequest
-from perplexity.dependencies import (
+from vector.models.chat_request import ChatRequest
+from vector.dependencies import (
     anthropic_conversation_chain,
     azure_chat_openai_conversation_chain,
     fake_list_chat_model_conversation_chain,

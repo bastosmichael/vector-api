@@ -1,6 +1,6 @@
 import unittest
-from perplexity.models.chat_request import ChatRequest
-from perplexity.models.model_classes import MODEL_CLASSES
+from vector.models.chat_request import ChatRequest
+from vector.models.model_classes import MODEL_CLASSES
 from langchain.chat_models import (
     ChatAnthropic,
     AzureChatOpenAI,

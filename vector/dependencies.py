@@ -1,6 +1,6 @@
-from perplexity.conversation_chain import StreamingConversationChain
-from perplexity.settings import get_settings
-from perplexity.models.model_classes import MODEL_CLASSES
+from vector.conversation_chain import StreamingConversationChain
+from vector.settings import get_settings
+from vector.models.model_classes import MODEL_CLASSES
 
 
 def anthropic_conversation_chain():

@@ -3,7 +3,7 @@ from typing import AsyncGenerator
 from langchain.callbacks import AsyncIteratorCallbackHandler
 from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferMemory
-from perplexity.models.model_classes import MODEL_CLASSES
+from vector.models.model_classes import MODEL_CLASSES
 from .templates import CHAT_PROMPT_TEMPLATE
 
 

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "perplexity"
+name = "vector"
 version = "0.1.0"
 description = "A FastAPI backend application designed to integrate with vector databases, LangChain, HuggingFace, and OpenAI."
 authors = ["Michael Bastos <bastosmichael@gmail.com>"]
@@ -18,7 +18,7 @@ openai = "^0.27.8"
 black = "^23.7.0"
 
 [tool.poetry.scripts]
-perplexity = "perplexity.main:main"
+vector = "vector.main:main"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.0"
